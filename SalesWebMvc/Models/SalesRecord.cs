@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalesWebMvc .Models .Enums;
+using System;
 using System .Collections .Generic;
 using System .Linq;
 using System .Threading .Tasks;
@@ -24,6 +25,10 @@ namespace SalesWebMvc .Models
             Amount = amount;
             Status = status;
             Seller = seller;
+        }
+
+        public SalesRecord ( int v1 , DateTime dateTime , double v2 , SaleStatus billed , Seller s1 )
+        {
         }
     }
 }
